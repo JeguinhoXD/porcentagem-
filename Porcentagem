@@ -1,0 +1,6 @@
+preço = float(input('digite o preço do produto: R$'))
+des = float(input('digite a porcentagem do desconto: *'))
+novo = preço - (preço * des / 100)
+totaldes = novo - preço
+print(f'o preço é R${preço}, com um desconto de {des}%, fica R${novo}.')
+print(f'o desconto é de {totaldes}')
